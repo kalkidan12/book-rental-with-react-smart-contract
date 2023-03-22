@@ -7,6 +7,7 @@ import card from "../assets/images/credit.png";
 import timer from "../assets/images/clock.png";
 import coin from "../assets/images/currency.png";
 import { bookData } from "../constants/Constants";
+import Footer from "../components/Footer/Footer";
 const HomePage = () => {
 	return (
 		<div className="w-full h-full">
@@ -59,6 +60,7 @@ const HomePage = () => {
 					</div>
 				</div>
 			</div>
+			<Footer />
 		</div>
 	);
 };
