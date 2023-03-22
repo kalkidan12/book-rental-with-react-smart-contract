@@ -18,7 +18,7 @@ const HomePage = () => {
 				</h1>
 				<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 justify-center items-center">
 					<StatusCard
-						cardName={"BNB Credit"}
+						cardName={"BNB Balance"}
 						number={"0.123"}
 						iconImg={card}
 						cardBg={"bg-gray-100"}
