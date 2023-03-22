@@ -5,7 +5,7 @@ const PayForm = ({ placeholder, onSubmit, formTitle }) => {
 	return (
 		<form
 			onSubmit={onSubmit}
-			className="flex gap-3 flex-col justify-center items-center align-center shadow rounded-lg w-[300px]"
+			className="flex gap-3 flex-col justify-center items-center align-center shadow rounded-lg p-3"
 		>
 			<p className="text-lg font-bold text-slate-800">{formTitle}</p>
 			<input
